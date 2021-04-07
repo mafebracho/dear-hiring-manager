@@ -20,7 +20,7 @@ To ease your review time I collected and organised the most recent experience an
 
 - [Bootcamp Project 3](): full-stack web app with CRUD functionalities using `ReactJS, MongoDB, NodeJS` developed in a 3 people group
 
-- [Bootcamp Labs](): here are all the exercises I did during the Web Dev program to learn `pair programming, JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB` and `p5JS`
+- [Bootcamp Labs](https://github.com/mafebracho/dear-hiring-manager/tree/main/bootcamp-labs): here are all the exercises I did during the Web Dev program to learn `pair programming, JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB` and `p5JS`
 
 - [Code Challenges](https://github.com/mafebracho/dear-hiring-manager/tree/main/code-challenges): short `JavaScript` coding exercises to improve my programming skills
 
