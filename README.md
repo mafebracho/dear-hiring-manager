@@ -18,15 +18,15 @@ To ease your review time I collected and organised the most recent experience an
 
 - [Bootcamp Project 2](https://github.com/mafebracho/dear-hiring-manager/tree/main/bootcamp-project-2): to build this web app I learned to `work with a partner` for the first time, `NodeJS, ExpressJS, MongoDB, Mongoose` and `Handlebars`
 
-- [Bootcamp Project 3](): full-stack web app with CRUD functionalities using `ReactJS, MongoDB, NodeJS` developed in a 3 people group
+- [Bootcamp Project 3](https://github.com/mafebracho/dear-hiring-manager/tree/main/bootcamp-project-3): full-stack web app with CRUD functionalities using `ReactJS, MongoDB, NodeJS` developed in a 3 people group
 
 - [Bootcamp Labs](https://github.com/mafebracho/dear-hiring-manager/tree/main/bootcamp-labs): here are all the exercises I did during the Web Dev program to learn `pair programming, JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB` and `p5JS`
 
 - [Code Challenges](https://github.com/mafebracho/dear-hiring-manager/tree/main/code-challenges): short `JavaScript` coding exercises to improve my programming skills
 
-- [Swift CV](): my CV in an interactive iOS app to learn `Swift UI`
+- [Swift CV](https://github.com/mafebracho/dear-hiring-manager/tree/main/swift-cv): my CV in an interactive iOS app to learn `Swift UI`
 
-- [PDF CV](): no `fancy tech stack` but this is made to make your life easy so, if you want to check it out, there you go
+- [PDF CV](https://github.com/mafebracho/dear-hiring-manager/tree/main/pdf-cv): no `fancy tech stack` but this is made to make your life easy so, if you want to check it out, there you go
 
 
   
