@@ -22,7 +22,7 @@ To ease your review time I collected and organised the most recent experience an
 
 - [Bootcamp Labs](): here are all the exercises I did during the Web Dev program to learn `pair programming, JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB` and `p5JS`
 
-- [Code Challenges](): short `JavaScript` coding exercises to improve my programming skills
+- [Code Challenges](https://github.com/mafebracho/dear-hiring-manager/tree/main/code-challenges): short `JavaScript` coding exercises to improve my programming skills
 
 - [Swift CV](): my CV in an interactive iOS app to learn `Swift UI`
 
