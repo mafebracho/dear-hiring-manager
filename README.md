@@ -1,11 +1,13 @@
-## Dear Hiring Manager! 👋
+<div align="center">
+  <h2> Dear Hiring Manager! 👋 </h2>
+</div>
 
-##### **👩‍🦳 Mafe (she/her) | 👩‍💻 Software Developer | 🌍 Berin, Germany**
-
+<div align="center">
+  <h3><b> 👩‍🦳 Mafe (she/her) | 👩‍💻 Software Developer | 🌍 Berin, Germany </b></h3>
+</div> 
 
 
 To ease your review time I collected and organised the most recent experience and repositories I created over the past 12 months in this repo.
-
 
 
 ##### What you will find here:
@@ -25,7 +27,6 @@ To ease your review time I collected and organised the most recent experience an
 - [PDF CV](): no `fancy tech stack` but this is made to make your life easy so, if you want to check it out, there you go
 
   
-
 ##### Since you are already checking this out:
 
 ##### **About me**
@@ -43,7 +44,6 @@ To ease your review time I collected and organised the most recent experience an
 - 🏋️‍♀️ I love to exercise, 🍽 fine dining and ✈️ traveling
 
 - 🏠 I have  a background in Architecture and leadership
-
   
 
 ##### And I am looking to kickstart my career by expanding into a new team
