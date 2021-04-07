@@ -3,11 +3,13 @@
 </div>
 
 <div align="center">
-  <h3><b> 👩‍🦳 Mafe (she/her) | 👩‍💻 Software Developer | 🌍 Berin, Germany </b></h3>
+  <h4><b> 👩‍🦳 Mafe (she/her) | 👩‍💻 Software Developer | 🌍 Berin, Germany </b></h4>
 </div> 
 
 
+
 To ease your review time I collected and organised the most recent experience and repositories I created over the past 12 months in this repo.
+
 
 
 ##### What you will find here:
@@ -25,6 +27,7 @@ To ease your review time I collected and organised the most recent experience an
 - [Swift CV](): my CV in an interactive iOS app to learn `Swift UI`
 
 - [PDF CV](): no `fancy tech stack` but this is made to make your life easy so, if you want to check it out, there you go
+
 
   
 ##### Since you are already checking this out:
@@ -45,6 +48,7 @@ To ease your review time I collected and organised the most recent experience an
 
 - 🏠 I have  a background in Architecture and leadership
   
+
 
 ##### And I am looking to kickstart my career by expanding into a new team
 
