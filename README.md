@@ -14,7 +14,7 @@ To ease your review time I collected and organised the most recent experience an
 
 ##### What you will find here:
 
-- [Bootcamp Project 1](): this single-player game is the first web app I ever built. I used `p5JS` and `DOM manipulation`
+- [Bootcamp Project 1](https://github.com/mafebracho/dear-hiring-manager/tree/main/bootcamp-project-1): this single-player game is the first web app I ever built. I used `p5JS` and `DOM manipulation`
 
 - [Bootcamp Project 2](): to build this web app I learned to `work with a partner` for the first time, `NodeJS, ExpressJS, MongoDB, Mongoose` and `Handlebars`
 
