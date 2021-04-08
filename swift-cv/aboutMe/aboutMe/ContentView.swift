@@ -23,7 +23,8 @@ struct ContentView: View {
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 150, height: 150)
                         .clipShape(Circle())
-                        .overlay(Circle().stroke(Color.white, lineWidth: 5))
+                        .overlay(Circle().stroke(Color.white, lineWidth: 3))
+                        .padding(.top, 100)
                     Text("MAFE")
                         .font(Font.custom("Roboto-Regular", size: 40))
                         .bold()
@@ -32,7 +33,6 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .font(Font.custom("Roboto-Light", size: 25))
                         .padding(.bottom)
-                    Divider()
                     VStack(alignment: .leading) {
                         HStack {
                             let myNumber = "0162 276 7407"
@@ -92,18 +92,21 @@ struct ContentView: View {
                                 }
                         }
                     }
-                    Divider()
-                    Text("About me")
-                        .foregroundColor(.white)
-                        .font(Font.custom("Roboto-Light", size: 25))
-                        .padding()
-                    Text("lkdsfnlskndgkls")
-                        .foregroundColor(.white)
-                        .font(Font.custom("Roboto-Light", size: 20))
-                        .padding()
+                    VStack {
+                        Text("About me")
+                            .foregroundColor(.gray)
+                            .font(Font.custom("Roboto-Light", size: 25))
+                            .padding(.top, 50)
+                        Text("I used to be an architect but I don't build houses anymore. So if you want a developer that builds user-focused apps and strong and meaningful relationships in your team, get in touch and say hola!")
+                            .foregroundColor(.gray)
+                            .font(Font.custom("Roboto-Light", size: 20))
+                            .padding(g.safeAreaInsets.top)
+                        Spacer()
+                    }
+                    .background(Color.white).edgesIgnoringSafeArea(.bottom)
+                    
                 }
             }
-            
             
         }
     }
