@@ -29,5 +29,12 @@ It was good fun to learn by doing during the bootcamp 💪
 - [MongoDB](https://github.com/mafebracho/lab-advance-querying-mongo): Advanced querying
 - [IronBeers](https://github.com/mafebracho/lab-ironbeers): Express, layouts and partials
 - [Mongoose](https://github.com/mafebracho/lab-mongoose-recipes): Mongoose practice
-- 
+- [Express Spotify](https://github.com/mafebracho/lab-express-spotify): Express practice
+- [Mongoose Movies](https://github.com/mafebracho/lab-mongoose-movies): Mongoose practice
+- [Express Basic Auth](https://github.com/mafebracho/lab-express-basic-auth): Basic authentication exercise
+- [React Intro](https://github.com/mafebracho/lab-hello-ironhack): React practice
+- [React Training](https://github.com/mafebracho/lab-react-training): React practice
+- [IronContacts](https://github.com/mafebracho/lab-react-ironcontacts): React practice
+- [IronBook](https://github.com/mafebracho/ironbook): React practice
+- [IronBeers](https://github.com/mafebracho/lab-react-ironbeers): React exercise
 
