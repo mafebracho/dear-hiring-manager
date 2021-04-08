@@ -9,6 +9,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var hovered = false
+    
     var body: some View {
         GeometryReader { g in
             ZStack {
@@ -42,27 +45,46 @@ struct ContentView: View {
                                 Text(myNumber)
                                     .foregroundColor(.white)
                                     .font(Font.custom("Roboto-Light", size: 20))
-                                    .padding(.trailing)
+                                    .padding(.leading)
+                                    .scaleEffect(hovered ? 2.0 : 1.0)
+                                    .animation(.default, value: hovered)
+                                    .onHover { isHovered in
+                                        self.hovered = isHovered
+                                    }
                             }
-                            Text("mafe.bracho@gmail.com")
+                            Spacer()
+                            Text("E-mail")
                                 .foregroundColor(.white)
                                 .font(Font.custom("Roboto-Light", size: 20))
-                                .padding(.leading, 50)
-                        }
-                        HStack {
+                                .scaleEffect(hovered ? 2.0 : 1.0)
+                                .animation(.default, value: hovered)
+                                .onHover { isHovered in
+                                    self.hovered = isHovered
+                                }
+                            Spacer()
                             Text("Linkedin")
                                 .foregroundColor(.white)
                                 .font(Font.custom("Roboto-Light", size: 20))
-                                .padding(.trailing, 60)
+                                .scaleEffect(hovered ? 2.0 : 1.0)
+                                .animation(.default, value: hovered)
+                                .onHover { isHovered in
+                                    self.hovered = isHovered
+                                }
                                 .onTapGesture {
                                     let url = URL.init(string: "https://www.linkedin.com/in/maria-fernanda-bracho/?locale=en_US")
                                     guard let linkedIn = url, UIApplication.shared.canOpenURL(linkedIn) else { return }
                                     UIApplication.shared.open(linkedIn)
                                 }
+                            Spacer()
                             Text("Github")
                                 .foregroundColor(.white)
                                 .font(Font.custom("Roboto-Light", size: 20))
-                                .padding(.leading, 50)
+                                .padding(.trailing)
+                                .scaleEffect(hovered ? 2.0 : 1.0)
+                                .animation(.default, value: hovered)
+                                .onHover { isHovered in
+                                    self.hovered = isHovered
+                                }
                                 .onTapGesture {
                                     let url = URL.init(string: "https://github.com/mafebracho")
                                     guard let gitHub = url, UIApplication.shared.canOpenURL(gitHub) else { return }
@@ -74,6 +96,10 @@ struct ContentView: View {
                     Text("About me")
                         .foregroundColor(.white)
                         .font(Font.custom("Roboto-Light", size: 25))
+                        .padding()
+                    Text("lkdsfnlskndgkls")
+                        .foregroundColor(.white)
+                        .font(Font.custom("Roboto-Light", size: 20))
                         .padding()
                 }
             }
