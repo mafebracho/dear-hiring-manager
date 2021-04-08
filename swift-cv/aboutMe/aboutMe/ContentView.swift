@@ -22,33 +22,46 @@ struct ContentView: View {
                         .clipShape(Circle())
                         .overlay(Circle().stroke(Color.white, lineWidth: 5))
                     Text("MAFE")
-                        .font(Font.custom("Roboto-Regular", size: 30))
+                        .font(Font.custom("Roboto-Regular", size: 40))
                         .bold()
                         .foregroundColor(.white)
                     Text("Software Developer")
                         .foregroundColor(.white)
-                        .font(Font.custom("Roboto-Light", size: 20))
+                        .font(Font.custom("Roboto-Light", size: 25))
                         .padding(.bottom)
                     Divider()
                     VStack(alignment: .leading) {
                         HStack {
-                            Text("0162 276 7407")
-                                .foregroundColor(.white)
-                                .font(Font.custom("Roboto-Light", size: 15))
-                                .padding(.trailing)
+                            let myNumber = "0162 276 7407"
+                            Button(action: {
+                                let phone = "tel:/"
+                                let formattedStr = phone + myNumber
+                                guard let url = URL(string: formattedStr) else { return }
+                                UIApplication.shared.open(url)
+                            }) {
+                                Text(myNumber)
+                                    .foregroundColor(.white)
+                                    .font(Font.custom("Roboto-Light", size: 20))
+                                    .padding(.trailing)
+                            }
                             Text("mafe.bracho@gmail.com")
                                 .foregroundColor(.white)
-                                .font(Font.custom("Roboto-Light", size: 15))
+                                .font(Font.custom("Roboto-Light", size: 20))
                                 .padding(.leading, 50)
                         }
                         HStack {
                             Text("Linkedin")
                                 .foregroundColor(.white)
-                                .font(Font.custom("Roboto-Light", size: 15))
+                                .font(Font.custom("Roboto-Light", size: 20))
                                 .padding(.trailing, 60)
+                                .onTapGesture {
+                                    let url = URL.init(string: "https://www.linkedin.com/in/maria-fernanda-bracho/?locale=en_US")
+                                    guard let linkedIn = url, UIApplication.shared.canOpenURL(linkedIn) else { return }
+                                    UIApplication.shared.open(linkedIn)
+                                }
                             Text("Github")
                                 .foregroundColor(.white)
-                                .font(Font.custom("Roboto-Light", size: 15))
+                                .font(Font.custom("Roboto-Light", size: 20))
                                 .padding(.leading, 50)
                                 .onTapGesture {
                                     let url = URL.init(string: "https://github.com/mafebracho")
@@ -58,20 +71,20 @@ struct ContentView: View {
                         }
                     }
                     Divider()
-                    Text("Linkedin")
+                    Text("About me")
                         .foregroundColor(.white)
-                        .font(Font.custom("Roboto-Light", size: 20))
+                        .font(Font.custom("Roboto-Light", size: 25))
                         .padding()
                 }
             }
+            
+            
         }
-        
-        
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }
