@@ -12,11 +12,16 @@ struct ContentView: View {
         ZStack {
             Color(red: 170 / 255, green: 207 / 255, blue: 207 / 255)
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-            Text("MARIA FERNANDA")
-                .font(.title)
-                .bold()
-                .foregroundColor(.white)
-                .padding()
+            VStack {
+                Text("MAFE")
+                    .font(Font.custom("Roboto-Regular", size: 40))
+                    .bold()
+                    .foregroundColor(.white)
+//                    .padding()
+                Text("Software Developer")
+                    .foregroundColor(.white)
+                    .font(Font.custom("Roboto-Light", size: 25))
+            }
         }
         
     }
