@@ -11,7 +11,22 @@ It was good fun to learn by doing during the bootcamp 💪
 
 
 
+##### Project 1
+[Arrival Survival](https://github.com/mafebracho/my-first-game): single-player game: p5JS
 
+
+
+##### Project 2
+["Land" me a Hand](https://github.com/mafebracho/help-giver-app): web application: NodeJS, ExpressJS, Handlebars, MongoDB and Mongoose
+
+
+
+##### Project 3
+[Cleanup Plastics](): web application: React, Node.js, MongoDB
+
+
+
+##### Labs
 - [Basic Algorithms](https://github.com/mafebracho/lab-javascript-basic-algorithms): Logical exercises
 - [Recipes Clone](https://github.com/mafebracho/lab-css-recipes-clone): CSS
 - [Functions and Arrays](https://github.com/mafebracho/lab-javascript-functions-and-arrays): Arrays basic
