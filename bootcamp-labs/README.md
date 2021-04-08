@@ -9,8 +9,11 @@ They were developed in their own dedicated repos during the bootcamp and -for th
 It was good fun to learn by doing during the bootcamp 💪
 
 [Basic Algorithms](https://github.com/mafebracho/lab-javascript-basic-algorithms): Logical exercises
+
 [Recipes Clone](https://github.com/mafebracho/lab-css-recipes-clone): CSS
+
 [Functions and Arrays](https://github.com/mafebracho/lab-javascript-functions-and-arrays): Arrays basic
+
 [Clue Game](https://github.com/mafebracho/lab-javascript-clue): Objects
 [Spotify Clone](https://github.com/mafebracho/lab-css-spotify-clone): CSS
 [Greatest Movies of all Time](https://github.com/mafebracho/lab-javascript-greatest-movies): Arrays
