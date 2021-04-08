@@ -2,11 +2,14 @@
 
 
 
+
 This section is a collection of exercises I did during my 9-week bootcamp program at Ironhack in Q1 2021
 
 They were developed in their own dedicated repos during the bootcamp and -for the sake of tidying up- I organised them here 🧹
 
 It was good fun to learn by doing during the bootcamp 💪
+
+
 
 
 - [Basic Algorithms](https://github.com/mafebracho/lab-javascript-basic-algorithms): Logical exercises
@@ -37,8 +40,10 @@ It was good fun to learn by doing during the bootcamp 💪
 
 - [Node](https://github.com/mafebracho/lab-intro-node): Node practice
 
+- [MongoDB](https://github.com/mafebracho/lab-advance-querying-mongo): Advanced querying
+
+- [IronBeers](https://github.com/mafebracho/lab-ironbeers): Express, layouts and partials
+
+- [Mongoose](https://github.com/mafebracho/lab-mongoose-recipes): Mongoose practice
 - 
-
-[MongoDB](https://github.com/mafebracho/lab-advance-querying-mongo): Advanced querying
-
 
