@@ -50,7 +50,7 @@ To ease your review time I collected and organised the most recent experience an
   
 
 
-##### And I am looking to kickstart my career by expanding into a new team
+##### And I am always looking for new challenges
 
 I don't build houses anymore, but if you want a developer that builds apps and strong and meaningful relationships in your team, get in touch and say ["hola!"](https://www.linkedin.com/in/maria-fernanda-bracho/?locale=en_US)
 
