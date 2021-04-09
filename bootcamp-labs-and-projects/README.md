@@ -22,7 +22,7 @@ It was good fun to learn by doing during the bootcamp 💪
 
 
 ##### Project 3
-[Cleanup Plastics](): web application: React, Node.js, MongoDB
+[Cleanup Plastics](https://github.com/cleanup-plastics/cleanup): web application: React, Node.js, MongoDB
 
 
 
