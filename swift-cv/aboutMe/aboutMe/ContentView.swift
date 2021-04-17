@@ -10,7 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var hovered = false
+    init(viewModel: ContentViewModel) {
+        self.viewModel = viewModel
+    }
+    
+    private let viewModel: ContentViewModel
+    
+    @State private var hovered = false
     
     var body: some View {
         GeometryReader { g in
@@ -37,31 +43,17 @@ struct ContentView: View {
                         HStack {
                             tappableText(withText: "Phone")
                                 .padding(.leading)
-                                .onTapGesture {
-                                    let myNumber = "Phone"
-                                    let phone = "tel:/"
-                                    let formattedStr = phone + myNumber
-                                    guard let url = URL(string: formattedStr) else { return }
-                                    UIApplication.shared.open(url)
-                                }
-                            
+                                .onTapGesture(perform: viewModel.phoneTapped)
                             Spacer()
                             tappableText(withText: "E-mail")
+                                .onTapGesture(perform: viewModel.emailTapped)
                             Spacer()
                             tappableText(withText: "Linkedin")
-                                .onTapGesture {
-                                    let url = URL.init(string: "https://www.linkedin.com/in/maria-fernanda-bracho/?locale=en_US")
-                                    guard let linkedIn = url, UIApplication.shared.canOpenURL(linkedIn) else { return }
-                                    UIApplication.shared.open(linkedIn)
-                                }
+                                .onTapGesture(perform: viewModel.linkedinTapped)
                             Spacer()
                             tappableText(withText: "Github")
                                 .padding(.trailing)
-                                .onTapGesture {
-                                    let url = URL.init(string: "https://github.com/mafebracho")
-                                    guard let gitHub = url, UIApplication.shared.canOpenURL(gitHub) else { return }
-                                    UIApplication.shared.open(gitHub)
-                                }
+                                .onTapGesture(perform: viewModel.githubTapped)
                         }
                     }
                     VStack {
@@ -96,7 +88,7 @@ struct ContentView: View {
     
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
-            ContentView()
+            ContentView(viewModel: ContentViewModel())
         }
     }
 }
