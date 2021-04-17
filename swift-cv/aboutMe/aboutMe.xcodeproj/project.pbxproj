@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A2708E0262AD7FF000FADA0 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2708DF262AD7FF000FADA0 /* ContentViewModel.swift */; };
+		1A2708E3262AE2DB000FADA0 /* MailComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2708E2262AE2DB000FADA0 /* MailComposeView.swift */; };
 		1A7F707E261F4D67000C92CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F707D261F4D67000C92CA /* AppDelegate.swift */; };
 		1A7F7080261F4D67000C92CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F707F261F4D67000C92CA /* SceneDelegate.swift */; };
 		1A7F7082261F4D67000C92CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F7081261F4D67000C92CA /* ContentView.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		1A2708DF262AD7FF000FADA0 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		1A2708E2262AE2DB000FADA0 /* MailComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailComposeView.swift; sourceTree = "<group>"; };
 		1A7F707A261F4D67000C92CA /* aboutMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aboutMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7F707D261F4D67000C92CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A7F707F261F4D67000C92CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				1A7F707F261F4D67000C92CA /* SceneDelegate.swift */,
 				1A7F7081261F4D67000C92CA /* ContentView.swift */,
 				1A2708DF262AD7FF000FADA0 /* ContentViewModel.swift */,
+				1A2708E2262AE2DB000FADA0 /* MailComposeView.swift */,
 				1A7F7083261F4D68000C92CA /* Assets.xcassets */,
 				1A7F7088261F4D68000C92CA /* LaunchScreen.storyboard */,
 				1A7F708B261F4D68000C92CA /* Info.plist */,
@@ -180,6 +183,7 @@
 				1A7F707E261F4D67000C92CA /* AppDelegate.swift in Sources */,
 				1A7F7080261F4D67000C92CA /* SceneDelegate.swift in Sources */,
 				1A7F7082261F4D67000C92CA /* ContentView.swift in Sources */,
+				1A2708E3262AE2DB000FADA0 /* MailComposeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

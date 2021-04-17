@@ -7,6 +7,7 @@
 
 
 import SwiftUI
+import MessageUI
 
 struct ContentView: View {
     
@@ -17,6 +18,7 @@ struct ContentView: View {
     private let viewModel: ContentViewModel
     
     @State private var hovered = false
+    @State private var isShowing = false
     
     var body: some View {
         GeometryReader { g in
@@ -46,7 +48,11 @@ struct ContentView: View {
                                 .onTapGesture(perform: viewModel.phoneTapped)
                             Spacer()
                             tappableText(withText: "E-mail")
-                                .onTapGesture(perform: viewModel.emailTapped)
+                                .onTapGesture {
+                                    if MFMailComposeViewController.canSendMail() {
+                                        isShowing = true
+                                    }
+                                }
                             Spacer()
                             tappableText(withText: "Linkedin")
                                 .onTapGesture(perform: viewModel.linkedinTapped)
@@ -73,6 +79,9 @@ struct ContentView: View {
             }
             
         }
+        .sheet(isPresented: $isShowing, content: {
+            MailComposeView(isShowing: self.$isShowing)
+        })
     }
     
     private func tappableText(withText text: String) -> some View {
