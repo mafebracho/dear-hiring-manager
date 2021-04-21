@@ -11,7 +11,7 @@ import UIKit
 class ContentViewModel {
     
     func phoneTapped() {
-        let myNumber = "Phone"
+        let myNumber = "+491622767407"
         let phone = "tel:/"
         let formattedStr = phone + myNumber
         guard let url = URL(string: formattedStr) else { return }
@@ -33,5 +33,4 @@ class ContentViewModel {
         guard let gitHub = url, UIApplication.shared.canOpenURL(gitHub) else { return }
         UIApplication.shared.open(gitHub)
     }
-    
 }

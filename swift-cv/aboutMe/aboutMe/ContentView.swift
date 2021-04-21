@@ -67,17 +67,16 @@ struct ContentView: View {
                             .foregroundColor(.gray)
                             .font(Font.custom("Roboto-Light", size: 25))
                             .padding(.top, 50)
-                        Text("I used to be an architect but I don't build houses anymore. So if you want a developer that builds user-focused apps and strong and meaningful relationships in your team, get in touch and say hola!")
+                        Text("I used to build houses and now I build Web and iOS applications")
+                            .multilineTextAlignment(.center)
                             .foregroundColor(.gray)
                             .font(Font.custom("Roboto-Light", size: 20))
                             .padding(g.safeAreaInsets.top)
                         Spacer()
                     }
                     .background(Color.white).edgesIgnoringSafeArea(.bottom)
-                    
                 }
             }
-            
         }
         .sheet(isPresented: $isShowing, content: {
             MailComposeView(isShowing: self.$isShowing)
