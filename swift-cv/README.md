@@ -6,7 +6,7 @@
 This is a small and UI-only iOS application that shows my contact information
 
 
-The idea is to practice SwiftUI and practice clean code (🛠 which I have not yet achieved)
+The idea is to practice SwiftUI and practice clean code (🛠 work in progress)
 
 
 
