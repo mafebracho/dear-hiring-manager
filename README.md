@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <h4><b> 👩‍🦳 Mafe (she/her) | 👩‍💻 Software Developer | 🌍 Berin, Germany </b></h4>
+  <h4><b> 👩‍🦳 Mafe (she/her) | 👩‍💻 Software Developer | 🌍 Berlin, Germany </b></h4>
 </div> 
 
 
