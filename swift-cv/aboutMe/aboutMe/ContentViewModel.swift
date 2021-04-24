@@ -11,7 +11,7 @@ import UIKit
 class ContentViewModel {
     
     func phoneTapped() {
-        let myNumber = "+491622767407"
+        let myNumber = Constants.phoneNumber
         let phone = "tel:/"
         let formattedStr = phone + myNumber
         guard let url = URL(string: formattedStr) else { return }
@@ -23,13 +23,13 @@ class ContentViewModel {
     }
     
     func linkedinTapped() {
-        let url = URL.init(string: "https://www.linkedin.com/in/maria-fernanda-bracho/?locale=en_US")
+        let url = URL.init(string: Constants.linkedin)
         guard let linkedIn = url, UIApplication.shared.canOpenURL(linkedIn) else { return }
         UIApplication.shared.open(linkedIn)
     }
     
     func githubTapped() {
-        let url = URL.init(string: "https://github.com/mafebracho")
+        let url = URL.init(string: Constants.gitHub)
         guard let gitHub = url, UIApplication.shared.canOpenURL(gitHub) else { return }
         UIApplication.shared.open(gitHub)
     }
