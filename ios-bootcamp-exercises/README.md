@@ -9,8 +9,6 @@ I did not really understand version control, git and GitHub back then, but now t
 
 
 
-##### Labs
-
 - [Dice rolling app:](https://github.com/mafebracho/dicee): IBActions, IBOutlets, UI elements and user interaction detection, basic data types, variables, constants and collection types
 - [Magic 8 ball:](https://github.com/mafebracho/magic8ball) Randomisation practice
 - [Calculator:](https://github.com/mafebracho/calculator) Auto layout, constraints, pin and align UI elements, containers and stack views
@@ -25,4 +23,3 @@ I did not really understand version control, git and GitHub back then, but now t
 - [Flash Chat:](https://github.com/mafebracho/flash-chat) Cocoapods, Firebase, memory management, typecasting, app Lifecycle 
 - [Dice rolling app with SwiftUI:](https://github.com/mafebracho/dicee-SwiftUI) Re-build dice rolling app in SwiftUI writing declarative SwiftUI code to create user interfaces programmatically
 - [Hacker News:](https://github.com/mafebracho/hacker-news) Manage state, learn about the @Published property modifier from the Combine framework that allows for more complex state management, manage complex app state using the ObservableObject protocol, incorporate UIKit components in a SwiftUI app using the UIViewRepresentable protocol, Catalyst
-- 
