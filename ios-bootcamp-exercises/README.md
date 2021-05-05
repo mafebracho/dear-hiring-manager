@@ -3,13 +3,18 @@
 
 
 
+
 This section is a collection of exercises I did during the [Udemy](https://www.udemy.com/course/ios-13-app-development-bootcamp/?utm_source=adwords&utm_medium=udemyads&utm_campaign=iOSDevelopment_v.PROF_la.EN_cc.ROW_ti.6292&utm_content=deal4584&utm_term=_._ag_85479008314_._ad_437497336317_._kw__._de_c_._dm__._pl__._ti_dsa-774930045049_._li_9043090_._pd__._&matchtype=b&gclid=CjwKCAjwhMmEBhBwEiwAXwFoEZZFJOBxgu67eqHF2oDF22T2HNo0zavN3k0-dJLrg4qZHhtIB8SbrhoC4_EQAvD_BwE) course I took during the covid lockdown on the second half of 2020
+
+
 
 I did not really understand version control, git and GitHub back then, but now they are here to evidence my learning and my progress
 
 
 
-- [Dice rolling app:](https://github.com/mafebracho/dicee): IBActions, IBOutlets, UI elements and user interaction detection, basic data types, variables, constants and collection types
+
+
+- [Dice rolling app:](https://github.com/mafebracho/dicee) IBActions, IBOutlets, UI elements and user interaction detection, basic data types, variables, constants and collection types
 - [Magic 8 ball:](https://github.com/mafebracho/magic8ball) Randomisation practice
 - [Calculator:](https://github.com/mafebracho/calculator) Auto layout, constraints, pin and align UI elements, containers and stack views
 - [Xylophone:](https://github.com/mafebracho/xylophone) AVFoundation and AVAudioPlayer to play sound, layout practice, Swift functions and understand input parameters and return types, error handling using try and catch, basic debugging
@@ -23,3 +28,4 @@ I did not really understand version control, git and GitHub back then, but now t
 - [Flash Chat:](https://github.com/mafebracho/flash-chat) Cocoapods, Firebase, memory management, typecasting, app Lifecycle 
 - [Dice rolling app with SwiftUI:](https://github.com/mafebracho/dicee-SwiftUI) Re-build dice rolling app in SwiftUI writing declarative SwiftUI code to create user interfaces programmatically
 - [Hacker News:](https://github.com/mafebracho/hacker-news) Manage state, learn about the @Published property modifier from the Combine framework that allows for more complex state management, manage complex app state using the ObservableObject protocol, incorporate UIKit components in a SwiftUI app using the UIViewRepresentable protocol, Catalyst
+- 
